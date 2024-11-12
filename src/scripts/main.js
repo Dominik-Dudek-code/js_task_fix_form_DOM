@@ -3,9 +3,9 @@
 // write code here
 
 const inputs = document.querySelectorAll('input');
-const inputsArray = [...inputs];
+const inputsElements = [...inputs];
 
-inputsArray.forEach((input) => {
+inputsElements.forEach((input) => {
   const labelId = input.getAttribute('id');
   let labelName = input
     .getAttribute('name')
